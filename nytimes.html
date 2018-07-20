@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Choose CSS Style comment out the rest-->
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous"> -->
+
+    <!--Self CSS-->
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
+
+
+    <title>Fill Me In</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://www.nytco.com/wp-content/themes/nytco/images/nytco/NYT-wordmark.png">
+        </div>
+        <div class="content">
+            <div class="head">Search Parameters</div>
+            <div class="searchform">
+                <form class "data">
+                    Search Term:
+                    <br>
+                    <input class="term" type="text">
+                    <br> Number of Records:
+                    <br>
+                    <select id="year" name="amount">
+                        <option value="1">1</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+
+                    </select>
+                    <br> Start Year (Optional):
+                    <br>
+                    <input class="starYear" type="text">
+                    <br> End Year (Optional):
+                    <br>
+                    <input class="endYear" type="text">
+                    <input type="button" id="search" value="Submit">
+                    <input type="submit" id="clear" value="Clear">
+                                  
+                    
+                </form>
+            </div>
+        </div>
+        <div class="content" id="articles">
+                <div class="head">Top Articles</div>
+                <div class="artDiv">
+
+                    <!-- <article><h1 class="arthead">Bacon ipsum dolor amet alcatra meatball filet mignon pastrami</h1>Bacon ipsum dolor amet alcatra meatball filet mignon pastrami strip steak pancetta, beef ribs jerky cow ham picanha turkey. Beef hamburger drumstick pork belly jowl turducken. Cupim chicken tenderloin fatback. Short ribs kevin capicola beef ribs turducken chuck. Ground round pork loin buffalo corned beef landjaeger jowl. Fatback flank swine shankle ground round, pig andouille tail beef. Shank landjaeger cupim fatback porchetta, sausage alcatra.</article> -->
+                </div>
+        </div>
+    </div>
+    <script>
+        // $(function () {
+
+        // });
+    </script>
+    <!--JQuery CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
