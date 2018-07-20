@@ -1,0 +1,147 @@
+body {
+  background-color: gray;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  width: 75%;
+  border: 1px solid rgb(83, 83, 83);
+  background-color: white;
+}
+
+.header {
+  font-family: "Special Elite", cursive;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  border-radius: 5px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 89%;
+  background: linear-gradient(lightblue, rgb(0, 0, 88));
+  margin-bottom: 30px;
+}
+.header img {
+  max-width: 95%;
+  filter: invert(100%);
+}
+
+.head {
+  color: black;
+  font-weight: bold;
+  width: 100;
+  padding: 10px;
+  background-color: rgb(209, 202, 202);
+  border-bottom: 1px solid rgb(83, 83, 83);
+  margin-bottom: 20px;
+}
+
+.content {
+  border-radius: 5px;
+  border: 1px solid rgb(83, 83, 83);
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 960px;
+  padding-bottom: 20px;
+}
+
+.searchform {
+  width: 95%;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#year {
+  width: 101.6%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.searchform input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  width: 99%;
+}
+
+#search {
+  margin-top: 20px;
+  width: 100px;
+  float: left;
+  background: none;
+  border: none;
+  font-weight: bold;
+}
+#clear {
+  margin-top: 20px;
+  width: 100px;
+  background: none;
+  border: none;
+  font-weight: bold;
+}
+
+#clear:hover{
+    border:1px solid black;
+}
+#search:hover{
+    border:1px solid black;
+}
+
+#articles{
+    margin-top: 25px;
+    height: auto;
+    margin-bottom: 25px;
+    
+}
+
+.artDiv{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.artDiv article{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: 100px;
+    border:1px solid black;
+    background-color: rgb(0, 0, 88);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.arthead{
+    color: white;
+    font-weight:bold;
+    font-size: 150%;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+
+.artaurthor{
+    color: white;
+    font-weight:bold;
+    font-size: 100%;
+    float:left;
+    margin-bottom: 5px;
+}
+
+.artdate{
+    color: white;
+    font-weight:bold;
+    font-size: 100%;
+    float:left;
+    margin-bottom: 5px;
+}
+
